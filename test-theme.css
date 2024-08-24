@@ -1,0 +1,39 @@
+/* Notification preview */
+.notification .message {
+  font-size: 16px;
+}
+.notification .sender {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
+}
+.notification .message {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Dark theme */
+.sidebar {
+  background-color: #020F1B;
+}
+.roomlist {
+  background-color: #011223;
+}
+.roomlist-item {
+  color: #FFF3A4;
+}
+.timeline {
+  background-color: #05192D;
+}
+.timeline-item {
+  color: #FFF3A4;
+}
+.text-primary {
+  color: #FFF3A4;
+}
+.text-secondary {
+  color: #A79000;
+}
